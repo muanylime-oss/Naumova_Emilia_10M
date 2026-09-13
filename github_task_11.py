@@ -1,0 +1,7 @@
+distance = float(input("Введите расстояние (км):"))
+speed = float(input("Введите скорость (км/ч):"))
+fuel = float(input("Введите расход топлива (л/100 км):"))
+print(f"Маршрут: {distance} км, скорость {speed} км/ч")
+print(f"Время в пути: {distance/speed:.2f} часов")
+print(f"Расход топлива: {fuel} л/100 км")
+print(f"Общий расход: {distance/100*fuel:.2f} литров")
